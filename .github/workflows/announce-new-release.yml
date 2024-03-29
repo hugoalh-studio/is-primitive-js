@@ -15,7 +15,7 @@ jobs:
         with:
           key: "${{secrets.DISCORD_HXHS_PROJECTNEWRELEASEANNOUNCER_WEBHOOK}}"
           embeds: |
-            - title: "__Path (JavaScript)"
+            - title: "Is Primitive (JavaScript)"
               description: |
                 > ${{github.event.repository.description}}
 
