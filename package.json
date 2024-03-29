@@ -1,0 +1,54 @@
+{
+	"name": "@hugoalh/is-primitive",
+	"version": "1.0.0",
+	"description": "A module to determine whether the item is a primitive.",
+	"keywords": [
+		"is",
+		"primitive"
+	],
+	"homepage": "https://github.com/hugoalh-studio/is-primitive-js#readme",
+	"bugs": {
+		"url": "https://github.com/hugoalh-studio/is-primitive-js/issues"
+	},
+	"license": "MIT",
+	"author": "hugoalh",
+	"files": [
+		"asset/**",
+		"bin/**",
+		"dist/**",
+		"lib/**",
+		"LICENSE*.md",
+		"package.json",
+		"README*.md"
+	],
+	"type": "module",
+	"main": "./dist/main.js",
+	"exports": {
+		"types": "./dist/main.d.ts",
+		"import": "./dist/main.js"
+	},
+	"types": "./dist/main.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugoalh-studio/is-primitive-js.git"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"devDependencies": {
+		"@stylistic/eslint-plugin": "^1.7.0",
+		"@types/node": "^20.11.30",
+		"@typescript-eslint/eslint-plugin": "^7.4.0",
+		"@typescript-eslint/parser": "^7.4.0",
+		"eslint": "^8.57.0",
+		"eslint-plugin-only-warn": "^1.1.0",
+		"typescript": "^5.4.3"
+	},
+	"engines": {
+		"node": ">=16.13.0"
+	},
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	}
+}
