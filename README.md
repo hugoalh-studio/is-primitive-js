@@ -20,6 +20,10 @@ A JavaScript module to determine whether the item is a primitive.
   > *N/A*
 - NodeJS >= v16.13.0
 
+### 🔗 Other Edition
+
+- [TypeScript](https://github.com/hugoalh-studio/is-primitive-ts)
+
 ## 🔰 Usage
 
 ### Via Installation
